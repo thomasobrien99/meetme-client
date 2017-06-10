@@ -1,0 +1,19 @@
+.YelpResultsCard-resultCard {
+  display: flex;
+  border: 1px solid #4d6059;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.YelpResultsCard-resultCardThumbnail {
+  width: 60px;
+  height: 60px;
+}
+
+.YelpResultsCard-resultCardInfo {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 10px;
+}

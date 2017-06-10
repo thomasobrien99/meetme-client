@@ -1,0 +1,89 @@
+button {
+  background: #4d6059;
+  border: 1px solid #4d6059;
+  border-radius: 4px;
+  color: white;
+  font-size: 14pt;
+}
+.App {
+  text-align: center;
+  background: #24282b;
+  color: #7f8d89;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-body {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.App-inputContainer {
+  display: flex;
+  left: 100px;
+  max-height: 550px;
+  position: absolute;
+  top: 100px;
+  width: 350px;
+  z-index: 1;
+}
+
+.App-resultsContainer {
+  height: 500px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  width: 350px;
+  z-index: 1;
+}
+
+.Card {
+  background: #24282b;
+  border: 1px solid #7f8d89;
+  border-radius: 4px;
+  flex: 1;
+  overflow: scroll;
+}
+.Card-header {
+  background: #4d6059;
+  color: white;
+  font-size: 16pt;
+  padding: 10px 0;
+}
+.Card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+.Card-resultCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7f8d89;
+  border-radius: 4px;
+}
+.Card-businessBlurb {
+  display: flex;
+}
+.Card-businessThumbnail {
+  height: 100px;
+  width: 100px;
+}
+
+.Results-result {
+  border: 1px solid #7f8d89;
+  border-radius: 4px;
+  background: #24282b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+}

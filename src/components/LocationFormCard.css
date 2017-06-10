@@ -1,0 +1,27 @@
+.LocationFormCard {
+  background: #24282b;
+  border: 1px solid #7f8d89;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.LocationFormCard-header {
+  background: #4d6059;
+  color: white;
+  font-size: 16pt;
+  padding: 10px 0;
+}
+
+.LocationFormCard-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+input {
+  font-size: 14pt;
+  margin-bottom: 20px;
+}
