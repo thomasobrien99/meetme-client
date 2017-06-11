@@ -138,9 +138,14 @@ class App extends Component {
       let markers = [new google.maps.Marker({ position: center })];
 
       fetch(`http://meetme-core.herokuapp.com/api/businesses/search?lat=${center.lat}&lng=${center.lng}`, { mode: 'no-cors' })
-      .then(response => response.json())
-      .then(results => this.setState({ directions, center, markers, yelpBusinesses: results.businesses }));
-
+      .then(response => {
+        debugger;
+        return response.json()
+      })
+      .then(results => {
+        debugger;
+        this.setState({ directions, center, markers, yelpBusinesses: results.businesses })
+      });
     });
   }
 
