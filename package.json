@@ -11,7 +11,7 @@
     "prop-types": "^15.5.9",
     "react-scripts": "0.9.5"
   },
-  "proxy": "http://localhost:3001/",
+  "proxy": "http://meetme-core.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
