@@ -137,12 +137,10 @@ class App extends Component {
       }
       let markers = [new google.maps.Marker({ position: center })];
 
-      fetch(`api/businesses/search?lat=${center.lat}&lng=${center.lng}`).then(response => {
-        return response.json()
-      }).then(results => {
-        this.setState({ directions, center, markers, yelpBusinesses: results.businesses }, () => {
-        });
-      });
+      fetch(`api/businesses/search?lat=${center.lat}&lng=${center.lng}`)
+      .then(response => response.json())
+      .then(results => this.setState({ directions, center, markers, yelpBusinesses: results.businesses }));
+
     });
   }
 

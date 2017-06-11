@@ -15,7 +15,6 @@ export default class ResultsCard extends Component {
   }
 
   render() {
-    debugger
     return (
       <div className="Card" onClick={this._handleClick.bind(this)}>
         <div className="Card-header">
